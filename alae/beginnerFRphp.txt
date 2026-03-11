@@ -1,0 +1,93 @@
+================================================================
+       EXERCICES PHP + HTML — NIVEAU DÉBUTANT
+================================================================
+
+----------------------------------------------------------------
+Exercice 1 — Les Types de Données
+----------------------------------------------------------------
+Crée un fichier PHP qui déclare les variables suivantes :
+- Ton prénom (string)
+- Ton âge (integer)
+- Ta taille en mètres (float)
+- Si tu es étudiant ou non (boolean)
+
+Affiche chaque variable dans une balise <p> séparée
+à l'intérieur d'une page HTML :
+
+    Prénom : Youssef
+    Âge : 22
+    Taille : 1.75
+    Étudiant : Oui
+
+💡 Pour le booléen, affiche "Oui" ou "Non" — pas 1 ou rien.
+
+----------------------------------------------------------------
+Exercice 2 — Conditions if / else
+----------------------------------------------------------------
+Crée une page HTML avec PHP. Déclare une variable $temperature.
+Affiche un message dans un <div> avec un style de couleur :
+
+- Au-dessus de 35       → "Il fait très chaud ! 🔥"    (fond rouge)
+- Entre 20 et 35        → "Beau temps ! ☀️"             (fond jaune)
+- Entre 10 et 19        → "Il fait un peu froid 🧥"     (fond bleu)
+- En dessous de 10      → "Il gèle ! ❄️"                (fond bleu clair)
+
+----------------------------------------------------------------
+Exercice 3 — Boucle for
+----------------------------------------------------------------
+Crée une page HTML qui utilise une boucle for pour afficher
+la table de multiplication du nombre 5, dans un tableau HTML :
+
+    5 x 1  = 5
+    5 x 2  = 10
+    5 x 3  = 15
+    ...
+    5 x 10 = 50
+
+Chaque ligne doit être dans un <tr> et chaque valeur dans un <td>.
+
+----------------------------------------------------------------
+Exercice 4 — Boucle while
+----------------------------------------------------------------
+Crée une page PHP + HTML qui utilise une boucle while pour
+afficher les nombres pairs entre 1 et 30.
+
+Chaque nombre doit être dans un <span> avec un style encadré
+(bordure + padding), affichés en ligne.
+
+----------------------------------------------------------------
+Exercice 5 — Formulaire HTML + PHP
+----------------------------------------------------------------
+Crée un formulaire avec :
+- Un champ texte pour le prénom de l'utilisateur
+- Un champ nombre pour son âge
+- Un bouton d'envoi
+
+Quand le formulaire est soumis, affiche :
+    Bonjour, Youssef ! Tu as 22 ans.
+
+Si le prénom ou l'âge est vide, affiche :
+    ⚠️ Veuillez remplir tous les champs.
+
+----------------------------------------------------------------
+Exercice 6 — 🔥 Tout Combiner (Bulletin Scolaire)
+----------------------------------------------------------------
+Construis une page Bulletin Scolaire.
+
+Crée un formulaire avec :
+- Le prénom de l'étudiant (champ texte)
+- 3 notes de matières (champs nombre) : Maths, Sciences, Anglais
+
+Quand le formulaire est soumis :
+- Affiche le prénom de l'étudiant dans un <h2>
+- Montre chaque matière et sa note dans un tableau HTML
+  (utilise une boucle for ou foreach)
+- Calcule et affiche la moyenne
+- Utilise une condition pour afficher la mention (A / B / C / F)
+- Utilise une condition pour afficher "✅ Admis" ou "❌ Refusé"
+  (note de passage : 50)
+- Si la moyenne est 100, affiche "🏆 Score Parfait !"
+
+================================================================
+       Bonne chance ! Colle tes réponses quand tu es prêt 💪
+================================================================
